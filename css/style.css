@@ -1,0 +1,47 @@
+html,
+body,
+.container,
+.pics {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+.container {
+  position: relative; }
+
+body {
+  background: #000; }
+
+.pics ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap; }
+
+.pics li {
+  margin: 2px;
+  height: 80px;
+  overflow: hidden; }
+
+.pics li img {
+  width: 100%;
+  height: 100%; }
+
+.bigbox {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: #000;
+  display: none;
+  text-align: center; }
+
+.bigbox .bigImg {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto; }
+
+/*# sourceMappingURL=style.css.map */
